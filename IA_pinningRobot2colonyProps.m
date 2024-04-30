@@ -87,7 +87,7 @@ flaeche = [];
 contour = [];
 roughness = []; 
 timeofMeasurement = [];
-% intProfile = []; % Intensitätsprofil
+% intProfile = []; % IntensitÃ¤tsprofil
 
 %% Looping over all pictures
 for snapshots = 1 : length(allFiles) 
@@ -217,7 +217,7 @@ end
 
 %% Play around with intensityProfile (before you include it into colonyProps
 
-% % % 1. Profil mitteln über Abstand zum Rand 
+% % % 1. Profil mitteln Ã¼ber Abstand zum Rand 
 % % figure(10)
 % % hold on
 % % for i = 1 : 6
