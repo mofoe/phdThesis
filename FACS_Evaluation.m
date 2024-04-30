@@ -59,8 +59,8 @@ close all
 %%%%% W23 - W/O LAG
 % facsdata(1) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_woLag\20210406_LibSCW23_allPlates.txt";
 % facsdata(2) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_woLag\20210407_LibSCW23_allPlates.txt";
-% % % % %AUSSCHLIEﬂEN - corrANC shifted % % % facsdata(3) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_woLag\20210408_LibSCW23_allPlates.txt";
-% % % % %AUSSCHLIEﬂEN M‹LL facsdata(4) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_woLag\20210411_LibSCW23_allPlates.txt"; 
+% % % % %AUSSCHLIE√üEN - corrANC shifted % % % facsdata(3) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_woLag\20210408_LibSCW23_allPlates.txt";
+% % % % %AUSSCHLIE√üEN M√úLL facsdata(4) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_woLag\20210411_LibSCW23_allPlates.txt"; 
 % facsdata(3) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_woLag\20210525_LibSCW23_allPlates.txt";
 % facsdata(4) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_woLag\20210527_LibSCW23_allPlates.txt";
 
@@ -98,33 +98,33 @@ close all
 % facsdata(2) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_MMwoLag\20210922_LibGRBvalMM_allPlates_woGaps.txt";
 
 %%%%% ---- DFE - SCREENING ---- %%%%%
-%%%% BVAL - W/O LAG - in LB at 37 ∞C
+%%%% BVAL - W/O LAG - in LB at 37 ¬∞C
 % % % % % do not use:facsdata(1) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_screening\20211018_LibSCBvalLB_plate2_woGaps.txt"; 
 % % facsdata(1) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_screening\20211102_LibSCBvalinLB37_plates124_woGaps.txt"; 
 % % facsdata(2) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_screening\20211116B_LibSCBval_LB37_woGaps_allPlates.txt"; 
 % % % % with new protocol (overnight dilution)
 % facsdata(1) = "H:\fitnessDistribution\2022_withSelection\20220204_LibBvalLB37_allPlates_woGaps.txt"; 
-%%%% BVAL - W/O LAG - in CM at 30 ∞C
+%%%% BVAL - W/O LAG - in CM at 30 ¬∞C
 % facsdata(1) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_screening\20211103_LibSCBval_CM30_allPlates_woGaps.txt"; 
-%%%% BVAL - W/O LAG - in MMGlycerol at 37 ∞C
+%%%% BVAL - W/O LAG - in MMGlycerol at 37 ¬∞C
 % facsdata(1) = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_screening\20211109_LibSCBval_MMGlycerol37_allPlates_woGaps.txt";
-%%%% BVAL - W/O LAG - in CM at 42 ∞C
+%%%% BVAL - W/O LAG - in CM at 42 ¬∞C
 % facsdata(1) = "H:\fitnessDistribution\2022_withSelection\20211108_LibSCBvalCM42_woGaps_allPlates.txt"; 
 % facsdata(2) = "H:\fitnessDistribution\2022_withSelection\20220303A_LibSCBvalCM42_allPlates_woGaps.txt"; 
 % facsdata(3) = "H:\fitnessDistribution\2022_withSelection\20220304A_LibSCBvalCM42_allPlates_woGaps.txt";
 % facsdata(4) = "H:\fitnessDistribution\2022_withSelection\20220316B_LibSCBvalCM42_allPlates_woGaps.txt";
-%%%% ANC - W/O LAG - in CM at 42 ∞C
+%%%% ANC - W/O LAG - in CM at 42 ¬∞C
 % % % % % Leave out:facsdata(1) = "H:\fitnessDistribution\2022_withSelection\20220303B_Bs166CM42_allPlates_woGaps.txt"; 
 % facsdata(1) = "H:\fitnessDistribution\2022_withSelection\20220304B_Bs166CM42_allPlates_woGaps.txt"; 
 % facsdata(2) = "H:\fitnessDistribution\2022_withSelection\20220316A_Bs166CM42_woGaps_plate1.txt"; 
 % facsdata(3) = "H:\fitnessDistribution\2022_withSelection\20220321_Bs166CM42_allPlates_woGaps.txt"; 
 
-%%%% BVAL - W/O LAG - in MMGlycerol at 37 ∞C
+%%%% BVAL - W/O LAG - in MMGlycerol at 37 ¬∞C
 % facsdata(1) = "H:\fitnessDistribution\2022_withSelection\20220317B_LibSCBvalMMGlycerol_allPlates_woGaps.txt"; 
 % facsdata(2) = "H:\fitnessDistribution\2022_withSelection\20220322B_LibSCBvalMMGlycerol_allPlates_woGaps.txt"; 
 % facsdata(3) = "H:\fitnessDistribution\2022_withSelection\20220329A_LibSCBvalMMGlycerol_woGaps_allPlates.txt";
 % facsdata(4) = "H:\fitnessDistribution\2022_withSelection\20220329B_LibSCBvalMMGlycerol_woGaps_allPlates.txt";
-%%%% ANC - W/O LAG - in MMGlycerol at 37 ∞C
+%%%% ANC - W/O LAG - in MMGlycerol at 37 ¬∞C
 % facsdata(1) = "H:\fitnessDistribution\2022_withSelection\20220317A_Bs166MMGlycerol_allPlates_woGaps.txt"; 
 % facsdata(2) = "H:\fitnessDistribution\2022_withSelection\20220322A_Bs166MMGlycerol_allPlates_woGaps.txt"; 
 % % % EXCLUDE: facsdata(3) = "H:\fitnessDistribution\2022_withSelection\20220324A_Bs166MMGlycerol_woGaps_allPlates.txt";
@@ -315,9 +315,9 @@ compareAnc = "OFF";
 %%% with LagPhase %%%
 % AncDist = "H:\fitnessDistribution\2021_HighThroughputCompetition\AncRef_Run1to4_outCollect.mat";
 %%% without LagPhase %%%
-% % % % in CM at 37∞C (standard)
+% % % % in CM at 37¬∞C (standard)
 % AncDist = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_woLag\20210628_outCollect_Bs166_woLag.mat";
-% % % % in CM at 42∞C
+% % % % in CM at 42¬∞C
 % AncDist = "H:\fitnessDistribution\2022_withSelection\20220406_outCollect_Bs166CM42_run1-4.mat";
 % % % % in MM
 % AncDist = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_MMwoLag\20210924_Bs166_Bs175_outCollect_4runs.mat";
@@ -327,15 +327,15 @@ compareAnc = "OFF";
 % % % for all cy10/20 samples
 % AncDist = "H:\fitnessDistribution\2021_HighThroughputCompetition\2021_woLag\20210628_outCollect_Bs166_woLag.mat";
 %%% with Selection %%%
-% % % after 5 days in CM at 37∞C
+% % % after 5 days in CM at 37¬∞C
 % AncDist = "H:\fitnessDistribution\2022_withSelection\20220329_outCollect_LibBvalwS3ctld5_run1-6.mat";
-% % % after 12.5 days in MM at 37∞C
+% % % after 12.5 days in MM at 37¬∞C
 % AncDist = "H:\fitnessDistribution\2022_withSelection\20220331_outCollect_LibBvalwS2ctld12_run1-4.mat";
 
 %%%%%% %%%%%% %%%%%%  18 h competition %%%%%% %%%%%% %%%%%% 
-% % % in CM at 30∞C (CntrlLib - anc:Bs213)
+% % % in CM at 30¬∞C (CntrlLib - anc:Bs213)
 % % AncDist = "H:\evolinLiquid\20230222_outCollect_C3_Run001-004_gatev1.mat";
-% % in CM at 37∞C (Bs166)
+% % in CM at 37¬∞C (Bs166)
 % AncDist = "H:\evolinLiquid\competitionExp\20230822_outCollect_Bs166CM37_Run001-004.mat";
 
 % Populations - Bs166 anc evolved for 5 days in CM
@@ -417,9 +417,9 @@ corrANCsamples = ancestor + ["V", "W", "X", "Y", "Z"];
 minFracAnc = 30; % default: 30
 maxFracAnc = 70; % default: 70
 
-genTime = 16.1/60; %in hours; for Bs166 in CM medium at 37 ∞C it is 17.1/60 h; for MM it is 39/60 h for CM30 its 23.5/60
-                    % for Bs210: 16.1 in CM at 37 ∞C
-                    % for Bs224: 16.2 in CM at 37 ∞C
+genTime = 16.1/60; %in hours; for Bs166 in CM medium at 37 ¬∞C it is 17.1/60 h; for MM it is 39/60 h for CM30 its 23.5/60
+                    % for Bs210: 16.1 in CM at 37 ¬∞C
+                    % for Bs224: 16.2 in CM at 37 ¬∞C
 % what is the uncertainty of the fraction measurement?
 uncertain = 5; % default: 5
 
@@ -485,7 +485,7 @@ for c = 1 : length(facsdata)
     nameSplit = cellfun(@(x) strsplit(x, '_'), [data.sample], 'UniformOutput', false);
     name_first = cellfun(@(x) x{1}, nameSplit, 'UniformOutput', false);
     name_last = cellfun(@(x) x{2}, nameSplit, 'UniformOutput', false);
-    if size(nameSplit{10},2)>2 && size(nameSplit{end-6},2)>2 % zuf‰llige Eintr‰ge
+    if size(nameSplit{10},2)>2 && size(nameSplit{end-6},2)>2 % zuf√§llige Eintr√§ge
         plate = cellfun(@(x) x{end}, nameSplit, 'UniformOutput', false);
         plateSplit = cellfun(@(x) strsplit(x,'plate'), plate, 'UniformOutput', false);
         plateNum = cellfun(@(x) str2num(x{2}), plateSplit);
